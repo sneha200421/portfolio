@@ -906,10 +906,7 @@ main {
   --scale: 1;
   opacity: 1;
 }
-.project-text {
-  flex-grow: 1;
-  padding: 0.5rem 0;
-}
+
 .project-item-icon-box ion-icon { --ionicon-stroke-width: 50px; }
 
 .project-img img {
