@@ -905,7 +905,22 @@ main {
 	overflow: hidden;
 }
 
-.project-item-icon-box ion-icon { --ionicon-stroke-width: 50px; }
+.project-item-icon-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  font-size: 2rem;
+  color: white;
+}
+
+.project-item:hover .project-item-icon-box {
+  opacity: 1;
+}
+
 
 /* .project-img img {
   width: 100%;
